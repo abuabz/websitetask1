@@ -1,0 +1,249 @@
+
+.homeSec {
+    background-color: #702DFF;
+    width: 100%;
+    height: 100vh;
+}
+#navLinks{
+    color: white;
+}
+#navLinks:hover{
+    background: #f4c01e;
+    border-radius: 16px;
+    height: 41px;
+}
+#navLogo {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+#hot
+    {
+        font-size: 10px;
+        color: white;
+        background: red;
+        width: 24px;
+        height: 14px;
+        border-radius: 6px;
+        padding-left: 4px;
+        margin-top: 14px;
+        margin-left: -6px;
+    }
+sup{
+
+        background: white;
+        color: #702dff;
+        border-radius: 5px;
+    
+}
+.checkout {
+    text-align-last: center;
+    padding-top: 7%;
+}
+
+
+#lordiv {
+    width: 66%;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 142.5%;
+    color: #FFFFFF;
+    background: rgba(245, 222, 179, 0);
+    text-align: center;
+}
+#navbarNavAltMarkup{
+    margin-left: 46%;
+              /* background: rgba(0, 0, 0, 0.83);
+              border-radius: 10px; */
+              text-align: center;
+}
+@media  (max-width:990px) {
+    #navbarNavAltMarkup{
+        margin-left: 46%;
+        background: rgba(0, 0, 0, 0.83);
+        border-radius: 10px;
+        text-align: center;
+        margin: o;
+        padding: 23px;
+    }
+    #navLinks {
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+    #navLinks:hover{
+        background-color:#702DFF;
+        transition: 1s;
+
+    }
+    #hot{
+        display: none;
+    }
+}
+@media (max-width:800px){
+    .checkout {
+        text-align-last: center;
+        padding-top: 11%;
+    }
+}
+
+#content1 {
+
+    color: white;
+    text-align: center;
+    width: 38%;
+    margin-top: 10px;
+}
+#btndiv {
+    text-align: center;
+    margin-top: 12px;
+}
+#btnbuy {
+    width: 149px;
+    height: 46px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-top: 0px;
+    font-weight: 700;
+    color: #702dff;
+}
+#imageDiv {
+    align-items: center;
+    text-align: center;
+    margin-top: 12px;
+    width: 40%;
+   
+}
+#imagemain {
+    box-shadow: 0px 12px 19px;
+    border-radius: 10px;
+}
+#card {
+    width: 21rem;
+    height: 29rem;
+    border-radius: 25px;
+    text-align: left;
+    margin-bottom: 14px;
+}
+#card2 {
+    width: 21rem;
+    height: 29rem;
+    border-radius: 25px;
+    background-color: none;
+    background: #f5f5dc00;
+    margin-bottom: 14px;
+    border: dashed 2px gray;
+}
+.cardSec {
+    background-color: #EFEFEF;
+    height: auto;
+    padding-bottom: 25px;
+}
+#cardcontainer {
+    padding-top: 119px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-scroll {
+    background-color: #33333398;
+    color: #fff;
+}
+#card1cnt1 {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 142%;
+    color: #6F6F6F;
+}
+.ques {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 142%;
+    text-align: center;
+    color: #000000;
+    margin-top: 57px;
+}
+    #card2cnt1 {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142%;
+        color: #6F6F6F;
+        text-align: center;
+    }
+    .arrowleft {
+        margin-top: 11px;
+        margin-left: -436px;
+        z-index: 2;
+    }
+.arrowright{
+    
+    margin-left: 291px;
+    z-index: 2;
+}
+@media (max-width:1070px){
+    .arrowleft {
+        display: none;
+    }
+.arrowright{
+ display: none;
+}
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+}
+.fbtn {
+    text-align: center;
+    margin-top: 34px;
+}
+#fbtn {
+    width: 154px;
+    cursor: pointer;
+    transition: .3s;
+}
+#fbtn:hover{
+ opacity: 60%;
+ transition: .3s;
+}
+@media (max-width:900px){
+    #imageDiv {
+        align-items: center;
+        text-align: center;
+        margin-top: 12px;
+        width: 50%;
+    }
+    .homeSec {
+        background-color: #702DFF;
+        width: 100%;
+        height: 700px;
+    }
+    #rightdes{
+        display: none;
+    }
+}
+#rightdes{
+    color: #000000;
+}
+@media (max-width:500px){
+    .homeSec {
+        background-color: #702DFF;
+        width: 100%;
+        height: 873px;
+    }
+}
