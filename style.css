@@ -1,4 +1,5 @@
 
+
 .homeSec {
     background-color: #702DFF;
     width: 100%;
@@ -240,10 +241,20 @@ footer{
 #rightdes{
     color: #000000;
 }
+#leftdis{
+    width: 100%;
+}
 @media (max-width:500px){
     .homeSec {
         background-color: #702DFF;
         width: 100%;
-        height: 873px;
+        height: 994px;
     }
+    #imageDiv{
+        width: 80%;
+    }
+    #secondDiv{
+        margin-top: -335px;
+    }
+
 }
